@@ -22,12 +22,26 @@
 
 \begin{itemize}
 \item Why did you work on this problem?
+It was long described that scattering of tsunami waves on their trans Pacific travel can delay the waves on their arrival. Additionally, this can amplify the signal. Here I wanted to investigate how Koko Guoyt could do this. This again was shown for at least a decade that Koko Guoyt and Hess Rise cause additional energy to get Crescent City. I wanted to understand why does it happen? And how this scattering can vary with application to prediction?
+
 \item What did you find out?
+Koko Guoyt definitely shapes the tsunami wave field creating energetic beams with specific direction. This response is purely caused by scattering and can be described by analytical solution. The scattered wave field is than represented as spatial modes excited by the guoyt. And their direction is directed right towards the northern California. Than comparing two tsunami events I found that in some cases such as Kuril case higher frequencies are responsible for this. And for more direct waves such as in Tohoku case longer waves will be affected.
+
 \item How did you tackle it?
+I used energy flux analysis of the numerical model results, analytical solution and ray tracing. Energy flux was found to show how energy is organized in tight beams which correspond to eigen solution of the analytical problem of elliptic seamount scattering. Than ray tracing which is applicable over large flat portions of Pacific ocean was applied to show that these are actually the beams responsible for amplified signal at the Northern California.
+
 \item How do you know your results are valid?
+This analysis corresponds to observations made during the mentioned tsunami events where it is clearly seen large secondary waves.
+
 \item How do your results fit into the big picture?
+There are several seamounts in the World Ocean which can redirect tsunami energy in the same manner as Koko Guoyt. Examples include souther Pacific Ocean and New Zealand.
+
 \item Is further work needed?
+The further work is necessary for identifying how this can be properly simulated in the tsunami forecasting numerical models and if they correctly represent physics of the tsunami scattering since it is necessary good spatial resolution.
 \end{itemize}
+
+\section{Abstract}
+Tsunami waves as shallow gravity waves feel the bottom such that the incident energy can be scattered. Example of such interaction is Koko Guoyt scattering of tsunami waves originating at Japan-Kuril trench. As the waves encounter elliptic guoyt, the wave energy organizes into tight beams with strong directional and temporal characteristic. This is shown by investigation of energetics in two recent tsunami events, Kuril 2006 and Tohoku 2011. These events have shown distinctive signature in Crescent City by strong secondary waves lagging after the first wave. The analytic solution developed proves that the secondary waves are a result of scattering by Koko Guyot. This mechanism has selective property that depends on incidence of the initial tsunami wave packet. For tsunami waves originating at Kuril trench scattering amplifies higher frequencies while for more direct incidence from Japan trench - longer frequencies are preferred.
 
 \section{Introduction}
 \textbf{Tsunami wave impinges Koko guyot on their trans-Pacific journey. What happens with them?}\\
@@ -62,36 +76,22 @@ In this investigation as well two tsunami events are kept in mind. The first tsu
 
 \newpage
 
-\section{Description of experiments}
-For numerical experiments it was used home-brew numerical model with everything simplified. The equations solved consider shallow water dynamics with squared velocity friction law. They are discretized using finite difference method and numerically solved. The tsunami waves of single frequency are infinitely prescribed on the left hand boundary. Following previous analysis there are three types of bathymetry studied (Figure 4). In case of real topography used (i.e. Japan and Kuril cases) the surrounding ocean was destroyed to make experiment simple as possible. Though introduction of additional scattering is possible.\\
-\begin{figure}[h]
-\includegraphics[scale=0.35]{../figures/ell_bathy.pdf}
-\includegraphics[scale=0.35]{../figures/japan_bathy.pdf}
-\includegraphics[scale=0.35]{../figures/kuril_bathy.pdf}
-\caption{Three topography used in numerical investigations. a) Elliptical seamount with sharp skirt arises from 5500 m to 800 m. b) Real Koko guoyt topography cut from TOPO30 and turned $10^{\circ}$ to represent Japan case. c) Cut Koko guyot topography rotated by $35^{\circ}$ to represent Kuril case.}
-\end{figure}
-After reaching the stable regime the results were recorded and flux maps made. Also wave spectra decomposition was used to demodulate otherwise interfered signal.\\
-The spatial resolution was the same and equal to $\delta x = \delta y = 1~km$. The time step for elliptical seamount experiment is $\delta t = 2~sec$ and for real topography cases $\delta t = 0.25~sec$.
+\section{Numerical experiments of Kuril and Tohoku events}
 
-\section{Simplified experiments}
-\subsection{Circular seamount}
-\begin{figure}
-\centering
-\includegraphics[scale=0.5]{../figures/test_seamount_bathy.png}
-\caption{Circular seamount rising from 5300 m depth ocean up to 800 m.}
-\end{figure}
+\section{Analytical description of scattering by Koko Guoyt}
 
-\begin{figure}
-\centering
-\includegraphics[scale=0.5]{../figures/fluxes_circ_sm.png}
-\caption{Energy fluxes for three experiments with different frequencies.}
-\end{figure}
+\section{Discussion}
 
-\begin{figure}
-\centering
-\includegraphics[scale=0.5]{../figures/spectra_windrose_circ_sm.png}
-\caption{Directional distribution of wave energy for three experiments.}
-\end{figure}
+\section{Conclusions}
+
+\newpage
+\section*{TO DO LIST}
+\begin{itemize}
+\item Angular decomposition and scattered wave field
+\item Elliptic seamount, analytical solution
+\item Windowing, wavelets of numerical results
+\item Energetics in the two events
+\end{itemize}
 
 \bibliographystyle{apacite}
 \bibliography{/home/dmitry/Bibtex_lib/}
