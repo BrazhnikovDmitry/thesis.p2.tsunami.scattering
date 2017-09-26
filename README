@@ -10,3 +10,23 @@ This chapter talks about scattering of tsunami wave by Koko Guoyt. And describes
 	a) of the incident wave
 	b) of scattered waves
 4) Predictions
+
+\begin{itemize}
+\item Why did you work on this problem?
+It was long described that scattering of tsunami waves on their trans Pacific travel can delay the waves on their arrival. Additionally, this can amplify the signal. Here I wanted to investigate how Koko Guoyt could do this. This again was shown for at least a decade that Koko Guoyt and Hess Rise cause additional energy to get Crescent City. I wanted to understand why does it happen? And how this scattering can vary with application to prediction?
+
+\item What did you find out?
+Koko Guoyt definitely shapes the tsunami wave field creating energetic beams with specific direction. This response is purely caused by scattering and can be described by analytical solution. The scattered wave field is than represented as spatial modes excited by the guoyt. And their direction is directed right towards the northern California. Than comparing two tsunami events I found that in some cases such as Kuril case higher frequencies are responsible for this. And for more direct waves such as in Tohoku case longer waves will be affected.
+
+\item How did you tackle it?
+I used energy flux analysis of the numerical model results, analytical solution and ray tracing. Energy flux was found to show how energy is organized in tight beams which correspond to eigen solution of the analytical problem of elliptic seamount scattering. Than ray tracing which is applicable over large flat portions of Pacific ocean was applied to show that these are actually the beams responsible for amplified signal at the Northern California.
+
+\item How do you know your results are valid?
+This analysis corresponds to observations made during the mentioned tsunami events where it is clearly seen large secondary waves.
+
+\item How do your results fit into the big picture?
+There are several seamounts in the World Ocean which can redirect tsunami energy in the same manner as Koko Guoyt. Examples include souther Pacific Ocean and New Zealand.
+
+\item Is further work needed?
+The further work is necessary for identifying how this can be properly simulated in the tsunami forecasting numerical models and if they correctly represent physics of the tsunami scattering since it is necessary good spatial resolution.
+\end{itemize}
